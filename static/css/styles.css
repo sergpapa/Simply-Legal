@@ -492,6 +492,17 @@ progress {
   font-weight: 300;
 }
 
+.description {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description-text {
+  min-height: 100px;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -10975,7 +10986,7 @@ section.cta:before {
   font-size: 4rem;
 }
 
-.icon-review i {
+.stars {
   font-size: 2rem;
   color: #fff;
 }
