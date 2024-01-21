@@ -3116,6 +3116,13 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
+/* --------------------------------------------------------------*/
+
+.call-to-action .btn {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .btn-link {
   --bs-btn-font-weight: 500;
   --bs-btn-color: var(--bs-link-color);
@@ -10932,7 +10939,7 @@ section {
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
   content: "";
-  background-image: url("../assets/img/portrait_black.png");
+  background-image: url("../assets/img/paper_2.png");
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
@@ -10966,6 +10973,11 @@ section.cta:before {
 
 .icon-feature {
   font-size: 4rem;
+}
+
+.icon-review i {
+  font-size: 2rem;
+  color: #fff;
 }
 
 .features-device-mockup {
